@@ -1,0 +1,15 @@
+.customer-experience {
+	background: $bgColor;
+	padding: 40px 0;
+	.customer-experience-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		h2 {
+			@include heading2;
+		}
+		.para-content {
+			@include paragraphs;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.header{
+    .logo{
+        max-width: 235px;
+        width:100%;
+        img{
+            width:100%;
+        }
+    }
+}
+.main-navigation{
+    display: flex;
+}
+.navbar{
+    justify-content: space-between;
+    li{
+        a{
+            &:after{
+                content:'';
+                display:none;
+            }
+        }
+    }
+    form{
+        display: inline-block;
+    }
+}
