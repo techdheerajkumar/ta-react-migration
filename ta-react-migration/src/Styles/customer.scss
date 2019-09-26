@@ -1,15 +1,23 @@
-.customer-experience {
-	background: $bgColor;
-	padding: 40px 0;
-	.customer-experience-content {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		h2 {
-			@include heading2;
+.customer-wrapper {
+	.customer-experience {
+		background: $bgColor;
+		padding: 40px 0;
+		.customer-experience-content {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			h2 {
+				@include heading2;
+				max-width: 30%;
+			}
+			.para-content {
+				@include paragraphs;
+				max-width: 67%;
+			}
 		}
-		.para-content {
-			@include paragraphs;
-		}
+	}
+	svg {
+		width: 100%;
 	}
 }
