@@ -28,7 +28,7 @@ class CustomerExperience extends Component {
 				</div>
 				<div className="demo">
 					<svg width="100%" height="150" viewBox="0 0 2000 150" preserveAspectRatio="none">
-						<polygon stroke="blue" stroke-width="0" fill="#f6f7f9" points="0 0, 1200 150, 2000 0" />
+						<polygon stroke="blue" strokeWidth="0" fill="#f6f7f9" points="0 0, 1400 150, 2000 0" />
 					</svg>
 				</div>
 			</div>

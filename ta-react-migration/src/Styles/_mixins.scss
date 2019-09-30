@@ -1,11 +1,31 @@
+@mixin heading1 {
+	font-size: 65px;
+	line-height: 72px;
+	font-weight: 600;
+	color: #1a1a1a;
+}
 @mixin heading2 {
 	font-size: 42px;
 	line-height: 48px;
 	font-weight: 300;
 	color: #1a1a1a;
 }
+@mixin heading3 {
+	font-size: 22px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #0068e0;
+}
 @mixin paragraphs {
 	font-size: 17px;
 	color: #1a1a1a;
 	line-height: 26px;
+}
+
+// Media Query
+@media screen and (min-width: 1600px) {
+	.container-fluid {
+		max-width: 1500px;
+		width: 100%;
+	}
 }
