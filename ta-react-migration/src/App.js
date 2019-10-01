@@ -1,17 +1,12 @@
 import React from 'react';
 import './App.scss';
 import HeaderComponent from './Components/Header/HeaderComponent';
-import BannerComponent from './Components//Banner/BannerComponent';
-import CustomerExperience from './Components/CustomerExperience/CustomerExperience';
-import ServiceComponent from './Components/Services/ServicesComponent';
-
+import FrontPageComponent from './Components/FrontPage/FrontPageComponent';
 function App() {
 	return (
 		<div className="App">
 			<HeaderComponent />
-			<BannerComponent />
-			<CustomerExperience />
-			<ServiceComponent />
+			<FrontPageComponent />
 		</div>
 	);
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-require('../../Styles//style.scss');
 class CustomerExperience extends Component {
 	render() {
 		return (

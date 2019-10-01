@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ServiceTypeComponent from './ServiceTypeComponent';
 import { connect } from 'react-redux';
 import ServiceHeadingComponent from './ServiceHeadingComponent';
-import * as actionTypes from '../../store/serviceAction';
+import * as actionTypes from '../../../store/serviceAction';
 import axios from 'axios';
 class ServicesComponent extends Component {
 	constructor() {
@@ -41,7 +41,6 @@ class ServicesComponent extends Component {
 		);
 	}
 }
-
 // const mapStateToProps = (state) => {
 // 	// console.log(state);
 // 	return {
