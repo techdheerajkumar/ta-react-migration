@@ -7,10 +7,12 @@ class HeaderComponent extends Component {
 	render() {
 		return (
 			<header className="header">
-				<nav className="navbar navbar-expand-lg navbar-light bg-light">
-					<LogoComponent />
-					<NavigationComponent />
-				</nav>
+				<div className="container-fluid">
+					<nav className="navbar navbar-expand-lg navbar-light bg-light">
+						<LogoComponent />
+						<NavigationComponent />
+					</nav>
+				</div>
 			</header>
 		);
 	}

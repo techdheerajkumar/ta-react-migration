@@ -1,6 +1,20 @@
 .services {
-	padding: 100px 0;
+	padding: 100px 0 275px;
 	text-align: center;
+	position: relative;
+	overflow: hidden;
+	&:after {
+		content: '';
+		position: absolute;
+		height: 208px;
+		width: 107%;
+		background: #f6f7f9;
+		bottom: -3px;
+		transform-origin: right top;
+		transform: rotate(-6deg);
+		right: 0;
+		z-index: -9;
+	}
 	h2 {
 		@include heading2;
 		margin-bottom: 40px;

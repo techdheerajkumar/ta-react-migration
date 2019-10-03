@@ -14,14 +14,39 @@
 	font-size: 22px;
 	line-height: 36px;
 	font-weight: 700;
-	color: #0068e0;
+	color: $blueTheme;
+}
+@mixin heading4 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #1a1a1a;
 }
 @mixin paragraphs {
 	font-size: 17px;
 	color: #1a1a1a;
 	line-height: 26px;
 }
-
+@mixin button {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1.2px;
+	background: transparent;
+	border: 2px solid $blueTheme;
+	padding: 10px 12px;
+	border-radius: 23px;
+	color: $blueTheme;
+	transition: .3s;
+	text-align: center;
+	&:hover {
+		text-decoration: none;
+		cursor: pointer;
+		color: #fff;
+		background: $blueTheme;
+		transition: .3s;
+	}
+}
 // Media Query
 @media screen and (min-width: 1600px) {
 	.container-fluid {

@@ -1,0 +1,54 @@
+.request-audit {
+	padding: 80px 0 250px;
+	background: $bgColor;
+	position: relative;
+	overflow: hidden;
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -195px;
+		width: 110%;
+		height: 230px;
+		background: #fff;
+		transform-origin: right bottom;
+		transform: rotate(6deg);
+		right: 0;
+	}
+	.audit-content {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		min-height: 700px;
+		h2 {
+			@include heading2;
+			margin: 0 0 40px;
+		}
+		a {
+			margin: 40px 0 0;
+			@include button;
+			max-width: 200px;
+			width: 100%;
+		}
+	}
+	.audit-toggle {
+		height: 100%;
+		min-height: 700px;
+		form {
+			background: #f2f2f2;
+			padding: 50px 72px;
+			.form-check {
+				text-align: center;
+			}
+			button {
+				margin: 24px auto 0;
+				display: block;
+				width: 100px;
+				border-radius: 30px;
+				text-transform: uppercase;
+				font-size: 14px;
+				line-height: 25px;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}

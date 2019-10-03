@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"imgName": "Blog-Banner-Image-768x307",
+		"title": "10 Steps to an Effective Test Strategy for CMS Migration",
+		"description": "Some of the common reasons for migration include scalability limitations, performance issues, substandard user experience, lack of integration features, and..."
+	},
+	{
+		"id": 2,
+		"imgName": "10-Ways-Artificial-Intelligence-Can-Improve-Customer-Service_Blog-Banner-768x307",
+		"title": "10 Ways Artificial Intelligence Can Improve Customer Service",
+		"description": "Brands today need to implement automated processes to communicate and connect with customers in real-time. Let’s have a look at..."
+	},
+	{
+		"id": 3,
+		"imgName": "AEC_Blog-Banner-Image-768x307",
+		"title": "Adobe Experience Cloud and How to Build a Great Customer Experience Strategy",
+		"description": "Download our digital transformation strategy guide to learn how you can boost customer lifetime value by evolving business processes to..."
+	}
+]
