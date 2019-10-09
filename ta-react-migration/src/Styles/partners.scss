@@ -1,0 +1,32 @@
+.partners {
+	padding: 100px 0 0;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+
+	.partner-heading {
+		width: 100%;
+		text-align: center;
+		h2 {
+			@include heading2;
+			margin: 0 0 40px;
+			text-align: center;
+		}
+		p {
+			@include paragraphs;
+		}
+	}
+
+	ul {
+		li {
+			display: inline-block;
+			margin: 3% 2.5% 4%;
+		}
+	}
+	svg {
+		background: $bgColor;
+		position: absolute;
+		bottom: 0;
+		z-index: 999;
+	}
+}

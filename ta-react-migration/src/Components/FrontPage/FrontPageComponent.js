@@ -4,6 +4,8 @@ import CustomerExperience from './CustomerExperience/CustomerExperience';
 import ServiceComponent from './Services/ServicesComponent';
 import RequestAuditComponent from './RequestAudit/RequestAuditComponent';
 import BlogComponent from './Blogs/BlogComponent';
+import TeamsComponent from './Teams/TeamsComponent';
+import PartnerComponent from './Partners/PartnerComponent';
 require('../../Styles/style.scss');
 export default class FrontPageComponent extends Component {
 	render() {
@@ -14,6 +16,8 @@ export default class FrontPageComponent extends Component {
 				<ServiceComponent />
 				<RequestAuditComponent />
 				<BlogComponent />
+				<TeamsComponent />
+				<PartnerComponent />
 			</div>
 		);
 	}
